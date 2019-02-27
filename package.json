@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "react": ">=16.0.0-alpha.12",
-    "moment": "^2.22.1",
-    "moment-range": "2.2.0",
+    "moment": "2.24.0",
+    "moment-range": "4.0.2",
     "prop-types": "^15.6.1"
   },
   "peerDependencies": {

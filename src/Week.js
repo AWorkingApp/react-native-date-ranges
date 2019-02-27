@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
-import moment from 'moment';
-import 'moment-range';
+import Moment from 'moment';
+import { extendMoment } from 'moment-range';
 import { dates } from './dates';
 import normalize from './normalizeText';
 
-
+const moment = extendMoment(Moment);
 
 const styles = {
   week: {
